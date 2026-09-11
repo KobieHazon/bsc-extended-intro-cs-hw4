@@ -44,7 +44,7 @@ The tests cover function-order semantics, all rod-cutting and game-solving varia
 - `assignment/hw4_tester.py`: supplied tester preserved in its original form
 - `assignment/score-key.pdf`: supplied grading key
 - `assignment/general-notes.pdf`: supplied general feedback and algorithm notes
-- `solution/written-answers.pdf`: my ten-page written submission with identifying metadata reduced to the author's name
+- `solution/written-answers.pdf`: my ten-page written submission
 - `src/extended_intro_hw4/`: maintained algorithms and command-line interface
 - `tests/`: portable pytest regression suite, including the supplied tester
 
