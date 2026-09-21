@@ -37,7 +37,7 @@ uv run ruff check .
 uv run ruff format --check .
 ```
 
-The tests cover function-order semantics, all rod-cutting and game-solving variants, invalid inputs, deterministic walk statistics, command-line behavior, and the complete supplied tester. The untouched recovered solution passes both its embedded checks and the supplied tester before modernization.
+The tests cover function-order semantics, all rod-cutting and game-solving variants, invalid inputs, deterministic walk statistics, command-line behavior, and the complete supplied tester.
 
 ## Repository Structure
 
@@ -48,14 +48,6 @@ The tests cover function-order semantics, all rod-cutting and game-solving varia
 - `src/extended_intro_hw4/`: maintained algorithms and command-line interface
 - `tests/`: portable pytest regression suite, including the supplied tester
 
-## Implementation notes
-
-The recovered source combines my implementations with the distributed scaffold. Scaffold comments remain in the historical solution commit and are not presented as authored work.
-
 ## Experiment Scope
 
-Each random-walk step changes every coordinate independently by either minus one or plus one, matching the recovered exercise rather than a single-axis lattice walk. The resulting statistics are simulation estimates, not analytical guarantees. Reported results must include the run length, dimensionality, number of runs, and random seed.
-
-## License
-
-No repository-wide license is declared because the repository combines original work with supplied material whose reuse terms were not recorded.
+Each random-walk step changes every coordinate independently by either minus one or plus one, matching the exercise rather than a single-axis lattice walk. The resulting statistics are simulation estimates, not analytical guarantees. Reported results must include the run length, dimensionality, number of runs, and random seed.
