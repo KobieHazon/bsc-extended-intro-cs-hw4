@@ -8,6 +8,21 @@ from collections.abc import Callable, Sequence
 from functools import lru_cache
 from typing import TypeVar
 
+__all__ = [
+    "acc",
+    "compose",
+    "g",
+    "h",
+    "myProd",
+    "profit",
+    "profit2",
+    "profit3",
+    "rw_stats",
+    "walk",
+    "win",
+    "win2",
+]
+
 T = TypeVar("T")
 R = TypeVar("R")
 

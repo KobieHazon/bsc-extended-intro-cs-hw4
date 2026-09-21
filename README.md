@@ -17,7 +17,7 @@ cd bsc-extended-intro-cs-hw4
 uv sync --dev
 ```
 
-The maintained package supports Python 3.10 or newer and has no runtime dependencies.
+The implementation supports Python 3.10 or newer and has no runtime dependencies.
 
 ## Usage
 
@@ -45,7 +45,7 @@ The tests cover function-order semantics, all rod-cutting and game-solving varia
 - `assignment/score-key.pdf`: supplied grading key
 - `assignment/general-notes.pdf`: supplied general feedback and algorithm notes
 - `solution/written-answers.pdf`: my ten-page written submission
-- `src/extended_intro_hw4/`: maintained algorithms and command-line interface
+- `src/`: maintained algorithms and command-line interface
 - `tests/`: portable pytest regression suite, including the supplied tester
 
 ## Experiment Scope

@@ -12,7 +12,7 @@ authors = [{ name = "Kobie Hazon" }]
 dependencies = []
 
 [project.scripts]
-extended-intro-hw4 = "extended_intro_hw4.cli:cli"
+extended-intro-hw4 = "extended_intro_hw4_cli:cli"
 
 [dependency-groups]
 dev = [
@@ -21,7 +21,8 @@ dev = [
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/extended_intro_hw4"]
+only-include = ["src/extended_intro_hw4.py", "src/extended_intro_hw4_cli.py"]
+sources = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
@@ -33,4 +34,3 @@ exclude = ["assignment"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "B"]
-

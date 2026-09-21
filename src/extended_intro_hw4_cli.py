@@ -5,7 +5,7 @@ from __future__ import annotations
 import argparse
 import random
 
-from .exercises import profit2, rw_stats, win2
+from extended_intro_hw4 import profit2, rw_stats, win2
 
 
 def integer_list(value: str) -> list[int]:

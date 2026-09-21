@@ -1,4 +1,4 @@
-from extended_intro_hw4.cli import cli
+from extended_intro_hw4_cli import cli
 
 
 def test_rod_profit_cli(monkeypatch, capsys) -> None:
